@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.form-label {
+  font-size: 18px;
+}
+
+.form-input {
+  width: 50px;
+}
+
+.container {
+  margin: 10px 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 10px;
+  margin: 10px;
+  background: seagreen;
+  text-align: center;
+  color: #ddd;
+}
+
